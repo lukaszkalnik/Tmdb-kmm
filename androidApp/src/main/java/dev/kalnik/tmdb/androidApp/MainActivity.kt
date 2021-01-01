@@ -2,11 +2,10 @@ package dev.kalnik.tmdb.androidApp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import dev.kalnik.tmdb.shared.Greeting
 import android.widget.TextView
 
 fun greet(): String {
-    return Greeting().greeting()
+    return "Coroutines test"
 }
 
 class MainActivity : AppCompatActivity() {
